@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <!-- Enlace a archivo CSS -->
+    <link rel="stylesheet" href= "styles.css">
+    <!-- Enlace a Font Awesome para los iconos -->
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>Mi Portfolio</h1>
+    </header>
+
+    <!-- Sección Quién Soy -->
+    <section class="section" id="quien-soy">
+        <h2 class="section-title">Quién Soy</h2>
+        <p>Mi nombre es Diego Fernandez. Soy un profesional dedicado con experiencia en diversas áreas, comprometido en alcanzar objetivos y contribuir con habilidades técnicas y analíticas.</p>
+    </section>
+
+    <!-- Sección Formación Académica -->
+    <section class="section" id="formacion-academica">
+        <h2 class="section-title">Formación Académica</h2>
+        <ul class="lista-formacion">
+            <li class="item-lista">Tecnico en informatica</li>
+            <li class="item-lista">Certificación en Programacion</li>
+            <li class="item-lista">Curso en Programación Web</li>
+        </ul>
+    </section>
+
+    <!-- Sección Experiencia Laboral -->
+    <section class="section" id="experiencia-laboral">
+        <h2 class="section-title">Experiencia Laboral</h2>
+        <table class="experiencia-laboral">
+            <tr>
+                <th>Puesto</th>
+                <th>Empresa</th>
+                <th>Fechas</th>
+            </tr>
+            <tr>
+                <td>Analista de Datos</td>
+                <td>Empresa ABC</td>
+                <td>2020-2022</td>
+            </tr>
+            <tr>
+                <td>Desarrollador Web</td>
+                <td>Compañía XYZ</td>
+                <td>2018-2020</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Sección Intereses -->
+    <section class="section" id="intereses">
+        <h2 class="section-title">Intereses</h2>
+        <div class="iconos-intereses">
+        <img src= https://th.bing.com/th?id=OIP.3g0frTr_KpYZsj_66m8X8QHaE7&w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2 alt="Interés 1" class="interes">
+        <img src="https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2171244914.jpg?c=16x9&q=w_1280,c_fill" alt="Interés 2" class="interes">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzEKTh8UpGFa1bozboCoed78PXs48gLbzfGQ&s" alt="Interés 3" class="interes">
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section class="section" id="contacto">
+        <h2 class="section-title">Contacto</h2>
+        <form id="contacto-form" >
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+
+            <label for="fecha">Fecha de contacto:</label>
+            <input type="date" id="fecha" name="fecha">
+
+            <label for="archivo">Subir archivo:</label>
+            <input type="file" id="archivo" name="archivo">
+
+            <div class="checkbox-container">
+                <input type="checkbox" id="terminos" name="terminos" required>
+                <label for="terminos">Acepto los términos y condiciones</label>
+            </div>
+
+            <button type="submit">Enviar</button>
+            <p class="error-message" id="error-message">Por favor, completa todos los campos correctamente.</p>
+        </form>
+    </section>
+      <!-- Footer con iconos de redes sociales -->
+  
+    <footer class="footer">
+        <a href="https://www.instagram.com" target="_blank" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+    </footer>
+
+</body>
+</html>
+
